@@ -32,7 +32,8 @@ def smallest_subarray_sum(s, arr):
 
             min_length = min(min_length, window_length)
 
-
+    if min.length == math.inf:
+        return 0
 
     print("min_length", min_length)
     return -1
